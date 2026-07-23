@@ -1,6 +1,7 @@
 # Secret and credential files — never commit
 anthropic-api-key.txt
 *api-key*.txt
+resend api key.txt
 *secret*.txt
 *credential*.txt
 *token*.txt
@@ -37,3 +38,6 @@ Thumbs.db
 
 # Source-only working materials (not for public bundle)
 _source/
+
+.vercel
+.env*.local

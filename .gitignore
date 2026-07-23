@@ -1,0 +1,39 @@
+# Secret and credential files — never commit
+anthropic-api-key.txt
+*api-key*.txt
+*secret*.txt
+*credential*.txt
+*token*.txt
+
+# Environment files — never commit local values
+.env
+.env.local
+.env.*.local
+
+# .env.example is intentionally tracked — do not exclude it
+
+# Vercel deployment artifacts
+.vercel
+
+# Node
+node_modules/
+.npm
+
+# Next.js build output
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor artifacts
+.vscode/settings.json
+.idea/
+
+# Source-only working materials (not for public bundle)
+_source/

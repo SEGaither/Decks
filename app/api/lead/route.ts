@@ -80,7 +80,7 @@ export async function POST(request: NextRequest) {
 
   try {
     const { error } = await resend.emails.send({
-      from: "Daychanger Decks <onboarding@resend.dev>",
+      from: "Daychanger Decks <quotes@daychangerdecks.com>",
       to: ["shane.gaither@gmail.com"],
       subject: `New Quote Request — ${name}`,
       html: `

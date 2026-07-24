@@ -25,11 +25,6 @@ export default function Home() {
             </svg>
             <span className="logo-name">Daychanger Decks</span>
           </Link>
-          <div className="header-contact">
-            <p className="header-tagline">Call Shane at Daychanger Decks</p>
-            <a className="header-phone" href="tel:+12562811291">256-281-1291</a>
-            <p className="header-slogan">We Do the Small Jobs Big Contractors Don&rsquo;t Want</p>
-          </div>
         </div>
       </header>
 
